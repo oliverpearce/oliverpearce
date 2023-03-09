@@ -21,18 +21,21 @@
         body {
             background-color: rgb(10, 10, 10);
             display: grid;
-            height: 40vh;
+            height: 300px;
             margin: 0px;
             overflow: hidden;
             place-items: center;    
         }
 
         h1 {
+            <!-- width: 100%;
+            height: 300px; -->
+
             color: white;
             font-family: "Rubik", sans-serif;
-            font-size: clamp(2em, 4vw, 4em);
+            font-size: clamp(2em, 8vw, 4em);
             font-weight: 400;
-            margin: 50px;
+            margin: 0px;
             padding: 20px;
             text-align: center;
         }
@@ -53,8 +56,7 @@
             white-space: nowrap;
         }
       </style>
-
-      <head>
+        <head>
         </head>
         <body>
             <h1>
